@@ -579,5 +579,7 @@ function getBrowserDimensions() {
     changed = true;
   }
 
-  return changed;
+  return false;
 }
+
+run();
